@@ -12,4 +12,7 @@ weight: 20
 6. Create a new .md file
 7. add content you want.
 8. Add the folllowing code in the md file.
-{{< gallery-slider dir="/wildwaves/" >}}
+
+{{< instagram_simple B_7e-ywpKpH hidecaption >}}
+{{< instagram_simple B_7e-ywpKpH hidecaption >}}
+{{< instagram_simple B_7e-ywpKpH hidecaption >}}

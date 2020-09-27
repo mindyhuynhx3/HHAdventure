@@ -102,3 +102,17 @@
     }
   }
 }
+
+.instagram-media {
+  display: inline-block !important;
+  width: 200px !important;
+}
+
+.s_instagram_simple {
+  display: inline-block;
+}
+.s_instagram_simple img {
+  width: 180px !important;
+  height: 180px !important;
+  object-fit: cover;
+}
