@@ -1,3 +1,8 @@
+---
+title: Image Gallery (in work)
+weight: 20
+---
+
 # Sliders
 1. To a slide show, go to the `static` folder of this project
 2. create a new folder and `<FOLDER NAME>`
@@ -7,5 +12,6 @@
 6. Create a new .md file
 7. add content you want.
 8. Add the folllowing code in the md file.
-{{< gallery-slider dir="/wildwaves/" >}}
-    
+
+{{< load-photoswipe >}}
+{{< gallery dir="/wildwaves/" caption-position="none" hover-effect="none" />}} 
