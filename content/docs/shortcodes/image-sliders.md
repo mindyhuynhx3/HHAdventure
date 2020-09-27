@@ -12,6 +12,6 @@ weight: 20
 6. Create a new .md file
 7. add content you want.
 8. Add the folllowing code in the md file.
-
-{{< load-photoswipe >}}
-{{< gallery dir="/wildwaves/" caption-position="none" hover-effect="none" />}} 
+{{< gallery >}}
+  {{< figure src="/wildwaves/DSC_3248.JPG" >}}
+{{< /gallery >}}
