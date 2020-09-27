@@ -1,18 +1,25 @@
 ---
-title: Image Gallery (in work)
+title: Instagram
 weight: 20
 ---
+# Instagram
 
-# Sliders
-1. To a slide show, go to the `static` folder of this project
-2. create a new folder and `<FOLDER NAME>`
-3. Drop all those pictures in the `<FOLDER NAME>` folder
-4. Go to `content` folder of this project
-5. Go to `docs`
-6. Create a new .md file
-7. add content you want.
-8. Add the folllowing code in the md file.
+# Smaller, simple Instagram
+Use the following code for smaller instagram.
+```html
+{{</* instagram_simple BuTyHFgB3AV hidecaption */>}}
+```
+# Example
+{{< instagram_simple Bt2hQj7hHPe hidecaption >}}
+{{< instagram_simple BuJZbkBB0Tf hidecaption >}}
+{{< instagram_simple BuTyHFgB3AV hidecaption >}}
 
-{{< instagram_simple B_7e-ywpKpH hidecaption >}}
-{{< instagram_simple B_7e-ywpKpH hidecaption >}}
-{{< instagram_simple B_7e-ywpKpH hidecaption >}}
+# Full detail Instagram post
+```html
+{{</* instagram BuTyHFgB3AV hidecaption */>}}
+```
+# Example
+{{< instagram Bt2hQj7hHPe hidecaption >}}
+{{< instagram BuJZbkBB0Tf hidecaption >}}
+{{< instagram BuTyHFgB3AV hidecaption >}}
+{{< instagram BuTyHFgB3AV hidecaption >}}
